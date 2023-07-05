@@ -1,5 +1,4 @@
-import { Subject, interval } from "rxjs";
-import { take } from "rxjs/operators";
+import { Subject, interval, take } from "rxjs";
 
 // Create a subject to emit the counter values
 const counterSubject = new Subject();
